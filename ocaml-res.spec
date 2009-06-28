@@ -1,6 +1,6 @@
 Name:           ocaml-res
 Version:        3.1.1
-Release:        %mkrel 1
+Release:        %mkrel 2
 Summary:        Library for automatically resizing contiguous memory (arrays and strings)
 License:        LGPL
 Group:          Development/Other
