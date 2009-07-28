@@ -12,6 +12,8 @@ BuildRequires:  ocaml
 BuildRequires:  ocaml-findlib
 BuildRequires:  tetex-latex
 BuildRequires:  texlive-texmf-cmsuper
+BuildRequires:  ghostscript
+BuildRequires:  ghostscript-common
 
 %description
 This OCaml-library consists of a set of modules which implement
