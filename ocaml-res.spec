@@ -1,6 +1,6 @@
 Name:           ocaml-res
-Version:        3.1.1
-Release:        %mkrel 2
+Version:        3.2.0
+Release:        %mkrel 1
 Summary:        Library for automatically resizing contiguous memory (arrays and strings)
 License:        LGPL
 Group:          Development/Other
@@ -11,6 +11,7 @@ BuildRoot:      %{_tmppath}/%{name}-%{version}-%{release}
 BuildRequires:  ocaml
 BuildRequires:  ocaml-findlib
 BuildRequires:  tetex-latex
+BuildRequires:  texlive-texmf-cmsuper
 
 %description
 This OCaml-library consists of a set of modules which implement
@@ -60,7 +61,7 @@ rm -rf %{buildroot}
 
 %files devel
 %defattr(-,root,root)
-%doc LICENSE Changes INSTALL README.txt TODO
+%doc LICENSE Changelog INSTALL README.txt TODO
 %doc doc/res/{html,latex} examples/
 %{_libdir}/ocaml/res/*.a
 %{_libdir}/ocaml/res/*.cmxa
