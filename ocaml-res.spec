@@ -4,7 +4,7 @@
 Summary:	Library for automatically resizing contiguous memory (arrays and strings)
 Name:		ocaml-res
 Version:	4.0.3
-Release:	1
+Release:	2
 License:	LGPLv2.1+
 Group:		Development/Other
 Url:		http://ocaml.info/home/ocaml_sources.html#res
