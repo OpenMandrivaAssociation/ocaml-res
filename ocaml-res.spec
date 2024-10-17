@@ -7,7 +7,7 @@ Version:	4.0.3
 Release:	2
 License:	LGPLv2.1+
 Group:		Development/Other
-Url:		http://ocaml.info/home/ocaml_sources.html#res
+Url:		https://ocaml.info/home/ocaml_sources.html#res
 Source0:	http://hg.ocaml.info/release/res/archive/res-%{version}.tar.gz
 BuildRequires:	ocaml
 BuildRequires:	ocaml-findlib
