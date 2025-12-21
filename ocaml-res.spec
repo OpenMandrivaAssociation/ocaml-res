@@ -9,6 +9,11 @@ License:	LGPLv2.1+
 Group:		Development/Other
 Url:		https://ocaml.info/home/ocaml_sources.html#res
 Source0:	http://hg.ocaml.info/release/res/archive/res-%{version}.tar.gz
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:	ocaml
 BuildRequires:	ocaml-findlib
 
